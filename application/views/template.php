@@ -6,6 +6,6 @@
 	</head>
 
 	<body>
-		asdf
+		<?php $this->load->view($content); ?>
 	</body>
 </html>
