@@ -1,5 +1,15 @@
 <?php
 
+function pg_connection_string() {
+	return "host=ec2-107-22-183-27.compute-1.amazonaws.com port=5432 dbname=dbojqk0deb0hsu user=oedanzozxjthbm password=PwdpPr6P1OBH4GrEi6Rz-jqo7F sslmode=require options='--client_encoding=UTF8'";
+}
+
+$db = pg_connect(pg_connection_string()) or die('Could not connect: ' . pg_last_error());
+if (!$db) {
+	echo "Database connection error."
+	exit;
+}
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
