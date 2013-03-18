@@ -1,1 +1,0 @@
-Kodi is the most gorgeous woman in the world! <3
