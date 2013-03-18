@@ -6,7 +6,7 @@ function pg_connection_string() {
 
 $db = pg_connect(pg_connection_string()) or die('Could not connect: ' . pg_last_error());
 if (!$db) {
-	echo "Database connection error."
+	echo "Database connection error.";
 	exit;
 }
 
