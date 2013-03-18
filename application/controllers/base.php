@@ -6,4 +6,10 @@ class Base extends CI_Controller {
 		$data['content'] = "home";
 		$this->load->view('template', $data);
 	}
+	
+	public function for_kodi() {
+		$data['title'] = "Kodi <3";
+		$data['content'] = "kodi";
+		$this->load->view('template', $data);
+	}
 }

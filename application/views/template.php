@@ -2,10 +2,22 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title><?= $title ?></title>
+		<title><?= $title; ?></title>
+		<link href="<?= base_url(); ?>assets/css/bootstrap.css" />
 	</head>
 
 	<body>
-		<?php $this->load->view($content); ?>
+		<div class="navbar navbar-static-top">
+			<div class="navbar-inner">
+				<a class="brand" href="/">cForum</a>
+				
+				<ul class="nav pull-right">
+					<li><a href="/">Home</a></li>
+					<li><a href="/kodi">For Kodi :)</a></li>
+				</ul>
+			</div>
+		</div>
+	
+		<div class="hero-unit"> <?php $this->load->view($content); ?> </div>
 	</body>
 </html>

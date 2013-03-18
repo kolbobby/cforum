@@ -41,6 +41,7 @@
 $route['default_controller'] = "base";
 $route['404_override'] = '';
 
+$route['/kodi'] = "base#for_kodi";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
