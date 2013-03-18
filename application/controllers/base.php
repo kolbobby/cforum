@@ -2,6 +2,7 @@
 
 class Base extends CI_Controller {
 	public function index() {
-		$this->load->view('welcome_message');
+		$data['title'] = "cForum";
+		$this->load->view('welcome_message', $data);
 	}
 }
