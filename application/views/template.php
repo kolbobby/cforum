@@ -13,7 +13,7 @@
 	</head>
 
 	<body>
-		<div class="navbar navbar-static-top">
+		<div class="navbar navbar-static-top navbar-inverse">
 			<div class="navbar-inner">
 				<a class="brand" href="/">cForum</a>
 				
