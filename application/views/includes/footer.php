@@ -1,1 +1,1 @@
-&copy; Bobby <a href="/kodi" style="color:black;cursor:default;text-decoration:none;">K</a>oller Productions
+<div class="footer">&copy; Bobby <a href="/kodi" style="color:black;cursor:default;text-decoration:none;">K</a>oller Productions</div>

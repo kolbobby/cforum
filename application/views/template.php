@@ -9,6 +9,13 @@
 				padding-top:10px;
 				padding-bottom:5px;
 			}
+			
+			.footer {
+				width:90%;
+				margin-left:5%;
+				margin-right:5%;
+				border-top:1px solid #CCC;
+			}
 		</style>
 	</head>
 
