@@ -16,5 +16,7 @@
 		<?php include_once "includes/navigation.php"; ?>
 	
 		<div class="hero-unit"> <?php $this->load->view($content); ?> </div>
+		
+		<?php include_once "includes/footer.php"; ?>
 	</body>
 </html>
