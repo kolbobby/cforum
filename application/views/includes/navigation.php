@@ -11,7 +11,6 @@
 		<div class="nav-collapse collapse">
 			<ul class="nav pull-right">
 				<li><a href="/">Home</a></li>
-				<li><a href="/kodi">For Kodi :)</a></li>
 			</ul>
 		</div>
 	</div>
