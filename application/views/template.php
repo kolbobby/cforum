@@ -26,8 +26,7 @@
 					containment: "parent", 
 					stop: function(event, ui) {
 						var size = $(this).parent('div').width();
-						if(size - ui.position.left == ui.width())
-							alert("Unlocked!");
+						alert(size - ui.width());
 					}
 				});
 			})
