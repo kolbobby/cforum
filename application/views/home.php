@@ -1,11 +1,12 @@
 <style type="text/css">
 	#unlock-confirm {
+		float:right;
 		border-left:1px solid #CCC;
 	}
 </style>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('#unlock-confirm').css({ 'height': $('#unlock-confirm').parent('div').height() });
+		$('#unlock-confirm').css({ 'width':$('#unlock-switch').width(), 'height': $('#unlock-confirm').parent('div').height() });
 		$('#unlock-switch').draggable({
 			axis: "x", 
 			containment: "parent", 
