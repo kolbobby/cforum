@@ -29,7 +29,7 @@
 			$('#unlock-confirm').css({ 'border-left': '1px solid green' });
 			$('#unlock-switch').slideUp();
 			$('#unlock-confirm').slideUp();
-			$('h1').slideDown();
+			$('h1').delay(400).slideDown();
 		})
 	}
 </script>
