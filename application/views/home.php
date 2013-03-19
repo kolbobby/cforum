@@ -13,7 +13,7 @@
 			stop: function(event, ui) {
 				var size = $(this).parent('div').width();
 				if(size - ui.position.left == $(this).width())
-					$('#unlock-confirm').css({ 'border-right': '1px solid green' });
+					$('#unlock-confirm').css({ 'border-left': '1px solid green' });
 				else
 					$(this).animate({ 'left': 0 });
 			}
