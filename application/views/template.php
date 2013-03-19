@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title><?= $title; ?></title>
+		<script src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 		<link rel="StyleSheet" href="<?= base_url(); ?>assets/css/bootstrap.css" />
 		<style type="text/css">
 			.hero-unit {
