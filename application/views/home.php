@@ -27,6 +27,7 @@
 	function unlock_site() {
 		$(document).ready(function() {
 			$('#unlock-confirm').css({ 'border-left': '1px solid green' });
+			$('#unlock-switch').slideUp();
 			$('#unlock-confirm').slideUp();
 			$('h1').slideDown();
 		})
