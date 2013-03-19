@@ -21,7 +21,7 @@
 		</style>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('.draggable').draggable();
+				$('#unlock-switch').draggable({ axis: "x", containment: "parent" });
 			})
 		</script>
 	</head>
