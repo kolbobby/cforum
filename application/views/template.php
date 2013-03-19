@@ -21,7 +21,13 @@
 		</style>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('#unlock-switch').draggable({ axis: "x", containment: "parent" });
+				$('#unlock-switch').draggable({
+					axis: "x", 
+					containment: "parent", 
+					stop: function(event, ui) {
+						alert(ui.position);
+					}
+				});
 			})
 		</script>
 	</head>
