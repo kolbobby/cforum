@@ -25,7 +25,7 @@
 					axis: "x", 
 					containment: "parent", 
 					stop: function(event, ui) {
-						alert(ui.position);
+						alert(ui.position.left);
 					}
 				});
 			})
