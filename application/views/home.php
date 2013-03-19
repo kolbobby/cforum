@@ -1,4 +1,8 @@
 <style type="text/css">
+	h1 {
+		display:none;
+	}
+	
 	#unlock-confirm {
 		float:right;
 		border-left:1px solid #CCC;
@@ -13,12 +17,20 @@
 			stop: function(event, ui) {
 				var size = $(this).parent('div').width();
 				if(size - ui.position.left == $(this).width())
-					$('#unlock-confirm').css({ 'border-left': '1px solid green' });
+					unlock_site();
 				else
 					$(this).animate({ 'left': 0 });
 			}
 		});
 	})
+	
+	function unlock_site() {
+		$(document).ready(function() {
+			$('#unlock-confirm').css({ 'border-left': '1px solid green' });
+			$('#unlock-confirm').slideUp();
+			$('h1').slideDown();
+		})
+	}
 </script>
 <h1>Welcome to cForum!</h1>
-<div><span id="unlock-switch" class="ui-widget-content">This is draggable!</span><div id="unlock-confirm"></div></div>
+<div><span id="unlock-switch" class="ui-widget-content">Slide to the right to unlock!</span><div id="unlock-confirm"></div></div>
