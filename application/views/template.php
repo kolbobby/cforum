@@ -19,19 +19,6 @@
 				border-top:1px solid #CCC;
 			}
 		</style>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#unlock-switch').draggable({
-					axis: "x", 
-					containment: "parent", 
-					stop: function(event, ui) {
-						var size = $(this).parent('div').width();
-						if(size - ui.position.left == $(this).width())
-							alert("Unlocked!");
-					}
-				});
-			})
-		</script>
 	</head>
 
 	<body>
