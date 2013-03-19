@@ -25,7 +25,8 @@
 					axis: "x", 
 					containment: "parent", 
 					stop: function(event, ui) {
-						alert(ui.position.left);
+						var size = $(this).parent('div').width();
+						alert(size);
 					}
 				});
 			})
